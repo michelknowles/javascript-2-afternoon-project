@@ -30,6 +30,7 @@ let me = {
 */
 
 //Code here
+
 let favoriteThings = {
   band: "the fugees",
   food: "popeyes chicken",
@@ -38,12 +39,14 @@ let favoriteThings = {
   movie: "inception",
   holiday: "christmas"
 }
+
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
+
 favoriteThings.car = 'lamborghini';
 favoriteThings.brand = 'kswiss';
 
@@ -66,10 +69,12 @@ favoriteThings.book = 'Harry Potter';
 */
 
 //Code here
+
 let backPack = {
 }
 
 let item = 'firstPocket';
+backPack.firstPocket = 'chapstick';
 
 /*
   After you do the above, alert your entire backPack object.
@@ -105,6 +110,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Bryan G. Smith';
+user2.email = 'bryan.smith@devmounta.in';
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
