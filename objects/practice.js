@@ -21,7 +21,7 @@ let me = {
   age: 30,
 
 }
-alert(me);
+// alert.me;
 ////////// PROBLEM 2 //////////
 
 /*
@@ -30,13 +30,13 @@ alert(me);
 */
 
 //Code here
-let favoriteThings {
-  band:
-  food:
-  person:
-  book:
-  movie:
-  holiday:
+let favoriteThings = {
+  band: "the fugees",
+  food: "popeyes chicken",
+  person: "jess",
+  book: "alchemist",
+  movie: "inception",
+  holiday: "christmas"
 }
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -44,6 +44,8 @@ let favoriteThings {
 */
 
 //Code here
+favoriteThings.car = 'lamborghini';
+favoriteThings.brand = 'kswiss';
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -51,7 +53,8 @@ let favoriteThings {
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 ////////// PROBLEM 3 //////////
 
 /*
@@ -63,6 +66,10 @@ let favoriteThings {
 */
 
 //Code here
+let backPack = {
+}
+
+let item = 'firstPocket';
 
 /*
   After you do the above, alert your entire backPack object.
