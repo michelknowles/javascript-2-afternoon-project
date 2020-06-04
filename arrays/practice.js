@@ -95,14 +95,17 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 //Code Here
 
-function evenFinder(nums) {
-  if(nums % 2 === 0) {
-    return nums;
-  } else {
-    return nums;
-  }
-}
-evenFinder();
+
+function evenFinder (nums){
+  let arr = []
+  for (var i = 0; i < nums.length; i++){
+    if (nums[i] % 2 === 0 ){
+      arr.push (nums[i])
+    }
+} return arr
+}localStorage
+
+
 // function evenFinder(nums)
 
 
