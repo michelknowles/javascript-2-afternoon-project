@@ -118,8 +118,18 @@ contains(names, 'Colt', function(result){
   Write a function called uniq that takes in an array and a callback function.
   Remove any duplicate values from the array, and invoke the callback with the modified array as an argument.
 */
-
+arr = [1,2]
 //Code Here
+function uniq(arr, cb){
+  arr.sort();
+  let newArr = []
+  for(let i = 0; i <= arr.length-1; i ++) {
+    if(arr[i] !== arr[i+1]) {
+      newArr.push();
+    }  
+  } 
+  cb(newArr);
+}; 
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
